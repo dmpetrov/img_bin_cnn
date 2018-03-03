@@ -1,7 +1,13 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
+
 import matplotlib.pyplot as plt
 import pickle
 import conf
 import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 with open(os.path.join(conf.data_dir, 'history.p'), 'rb') as fd:
   hist = pickle.load(fd)
