@@ -4,12 +4,12 @@ deps:
   path: code/conf.py
 - md5: 9d4bb7f03476901631dfc6003043ee43
   path: code/plot.py
-- md5: 1306249bba6df4b93c972d2a7cdf6a9d
+- md5: bae6235e33cb1fe139338d59e4f65ab8
   path: data/history.p
 outs:
 - cache: true
-  md5: 1f7b8160f608350f68a757ac94c4ff6a
+  md5: 715a703a325f1f8a06477ffa4fe1865e
   path: data/plot_loss.jpeg
 - cache: true
-  md5: 3d00da3690277d5dad97e530f727721b
+  md5: 37ca2fef79e1c2742c61fcf591a9df6f
   path: data/plot_acc.jpeg
