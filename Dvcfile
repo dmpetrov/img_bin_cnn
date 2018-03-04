@@ -1,5 +1,5 @@
 cmd: ''
 deps:
-- md5: 715a703a325f1f8a06477ffa4fe1865e
+- md5: 8ad60592f5403b20b5219923a2f86dde
   path: data/plot_loss.jpeg
 outs: []
